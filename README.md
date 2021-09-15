@@ -5,7 +5,7 @@ The purpose of this repository is to provide detailed start to end instruction o
 
 STEPS ARE AS GIVEN BELOW:
 
-1) Install google protocol buffers :\ 
+1) Install google protocol buffers :\
    1 - Download latest windows release from assets section in [here](https://github.com/protocolbuffers/protobuf/releases).\
    2 - Go to the extracted path and search for bin folder. Add this path to your system variable. (eg: C:\Protobuf\bin)\
    3 - From this directory run setup.py in cmd -> This will get you installed the Protobuf compiler\
