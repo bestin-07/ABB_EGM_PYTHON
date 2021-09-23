@@ -9,7 +9,7 @@ STEPS ARE AS GIVEN BELOW:
 1) Install google protocol buffers :\
    1 - Download latest windows release from assets section in [here](https://github.com/protocolbuffers/protobuf/releases). (look for this ->  protoc-3.17.3-win64.zip) or the latest one\
    2 - Go to the extracted path and search for bin folder. Add this path to your system variable. (eg: C:\Protobuf\bin)\
-   3 - Also download protobuf-python-3.18.0.tar.gz from the same link and search for setup.py\ 
+   3 - Also download protobuf-python-3.17.0.tar.gz or latest from the same link and search for setup.py\ 
    3 - Run setup.py in cmd -> This will get you installed the Protobuf compiler\
    4 - Now do 'pip install google' and 'pip install protobuf'\
    5 - Congrats!! you have succesfully installed protobuffer compilers\
