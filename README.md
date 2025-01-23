@@ -18,4 +18,5 @@ STEPS ARE AS GIVEN BELOW:
    1 - You will have a proto file from abb - ["egm.proto"](https://github.com/ros-industrial/abb_libegm/blob/master/proto/egm.proto). We have to compile this into our preffered programming language ie, Python in this case.\
    2 - To do that, use cmd to run the following command -> "protoc -I=$SRC_DIR --python_out=$DST_DIR $SRC_DIR/egm.proto" dont forget to provide destination target and source of your egm.proto file. If that is missed, current directory will be used as source and destination.\
    3 - Now check the destination folder. you'll get the python compiled file ["egm_pb2.py"](https://github.com/bestin-07/ABB_EGM_PYTHON/blob/main/Python/egm_pb2.py)\
-   4 - Congrats!! Your not far away now! 
+   4 - Congrats!! Your not far away now!
+3) 1 - Checkout python folder and open main.py. In this you will find a generic EGM class. Create an object of this class and change the parameters you want to control for the robot and send this through the UDP. 
