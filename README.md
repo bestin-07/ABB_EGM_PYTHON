@@ -20,5 +20,5 @@ STEPS ARE AS GIVEN BELOW:
    3 - Now check the destination folder. you'll get the python compiled file ["egm_pb2.py"](https://github.com/bestin-07/ABB_EGM_PYTHON/blob/main/Python/egm_pb2.py)\
    4 - Congrats!! Your not far away now!
 3) Python\
-   1 - Checkout python folder and open main.py. In this you will find a generic EGM class. Create an object of this class and change the parameters you want to control for the robot.
+   1 - Checkout python folder and open main.py. In this you will find a generic EGM class. Create an object of this class and change the parameters you want to control for the robot.\
    2 - Bind the controller by opening a UPD channel in the robot controller, connect the laptop and send this through the UDP to the socket with the IP address of the controller. 
